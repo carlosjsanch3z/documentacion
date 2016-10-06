@@ -264,6 +264,27 @@ h1+p {
                                     </div><!--//code-block-->
                                 </div><!--//section-block-->
 
+
+                                    <!-- Apartado 8 -->
+                                    <h3 id="88" class="block-title">8. Añadiendo imagen en el lenguaje Markdown al fichero index.md </h3>
+                                    <p>Para añadir una imagen cualquiera el formato en la sintaxis markdown es el siguiente:
+                                    </p>
+                                        <div class="code-block">
+                                            <pre><code class="language-git"># ![profile](https://carlosjsanch3z.github.io/images/profile.jpg)</code></pre>
+                                        </div><!--//code-block-->
+                                    <p><b>Importante:</b> Si dejaramos el enlace así funcionaría porque cogería la imagen de la ruta que le indico pero con el tamaño original que tenga esa imagen, por lo tanto le añadido el siguiente código css para disminuir el tamaño a 100 pixeles de la siguiente manera:</p>
+                                <div id="css" class="section-block">
+                                    <div class="code-block">
+                                        <pre><code class="language-css">/* ======= Añadiendo Imagen ======= */
+img[alt=profile] {
+   max-width:  100px;
+   display: block;
+}
+
+</code></pre>
+                                    </div><!--//code-block-->
+                                </div><!--//section-block-->
+
                             </section><!--//doc-section-->
                         </div><!--//content-inner-->
                     </div><!--//doc-content-->
