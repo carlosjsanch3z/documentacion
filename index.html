@@ -216,7 +216,7 @@
                                     </div>
                                     <p>Como en el fichero index.md, mediante el <b>tag</b> indicamos que el fichero html del que tiene que hacer uso es el llamado <b>index</b> que tenemos alojado en el directorio <b>_layouts</b> En este caso el enlace a la página principal es código <b>HTML</b>, para que fueran diferentes formas de hacer uso de vinculos en está práctica.</p>
                                     <p>Para ver el contenido entero del fichero about.md, se puede pinchar en el enlace de la página principal o bien <a href="https://github.com/carlosjsanch3z/carlosjsanch3z.github.io/blob/master/about.md">aquí</a>.</p>
-
+                                    <br>
                                     <!-- Apartado 7 -->
                                     <h3 id="77" class="block-title">7. Modificaciones añadidas al CSS </h3>
                                     <p> En el fichero cv-screen.css se añaden las reglas para modificar el diseño de los elementos que se encuentran en los ficheros .html o .md que son los ficheros encargados de alojar el contenido.
@@ -237,15 +237,27 @@
 html {
     background-color: #23434c; /* Nuevo color de fondo */ 
 }
+
 li {
     color: darkgoldenrod; /* Color dorado a los elementos listados */
 }
 
-/* Imagen de perfil */
+h1+p {
+    /*subtitulos*/
+    color: #1da09a;
+    font-style: italic;
+    font-size: 110%;
+    line-height: 2em;
+    margin-top: 0.5em;
+}
 
-img[alt=profile] {
-   max-width:  100px;
-   display: block;
+#webaddress {
+    margin-top: 0em;
+    position: relative;
+    margin-left: 25%;
+    color: red;
+    font-family: Menlo,monospace,sans-serif;
+    font-size: 80%;
 }
 
 </code></pre>
@@ -302,7 +314,7 @@ img[alt=profile] {
     <footer id="footer" class="footer text-center">
         <div class="container">
             <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
-            <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com/" targe="_blank">Xiaoying Riley</a> for developers</small>
+            <small class="copyright">Redactado por Carlos Jesús Sánchez Ortega <i class="fa fa-heart"></i> </small>
             
         </div><!--//container-->
     </footer><!--//footer-->
